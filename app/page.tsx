@@ -7,7 +7,7 @@ export default function Page() {
       <p className="mb-4">
         Hello, friend! I am a software engineer at{' '}
         <a
-          className="underline"
+          className="underline underline-offset-2"
           href="https://spacegoats.io/"
           rel="noopener noreferrer"
           target="_blank"
@@ -27,7 +27,7 @@ export default function Page() {
       <p className="mt-4">
         If you have similar interests, I would love to connect with you on{' '}
         <a
-          className="underline"
+          className="underline underline-offset-2"
           href="https://twitter.com/kotziabassis"
           rel="noopener noreferrer"
           target="_blank"
@@ -36,7 +36,7 @@ export default function Page() {
         </a>{' '}
         and chat about all things technology, coffee and keyboards. You can also follow me on{' '}
         <a
-          className="underline"
+          className="underline underline-offset-2"
           href="https://github.com/aeorge"
           rel="noopener noreferrer"
           target="_blank"
