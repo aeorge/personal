@@ -3,7 +3,7 @@ export default function Page() {
     <section>
       <h1 className="text-2xl font-bold">Georgios Kotziabassis</h1>
       <h2 className="text-xl">aeorge</h2>
-      <hr className="my-4 rounded border" />
+      <hr className="my-4 rounded border border-[#cdcdcd] dark:border-[#323232]" />
       <p className="mb-4">
         Hello, friend! I am a software engineer at{' '}
         <a
