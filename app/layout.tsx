@@ -10,7 +10,7 @@ const inter = Inter({
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html
-      className={`bg-white text-[#141414] dark:bg-[#141414] dark:text-white ${inter.variable}`}
+      className={`bg-[#ebebeb] text-[#141414] dark:bg-[#141414] dark:text-[#ebebeb] ${inter.variable}`}
       lang="en"
     >
       <head />
