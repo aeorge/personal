@@ -3,7 +3,7 @@ export default function Page() {
     <section>
       <h1 className="text-2xl font-bold">Georgios Kotziabassis</h1>
       <h2 className="text-xl">aeorge</h2>
-      <hr className="my-4 rounded border border-[#c3c3c3] dark:border-[#3c3c3c]" />
+      <hr className="my-4 h-0.5 rounded border-none bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" />
       <p className="mb-4 leading-[1.75rem]">
         Hello, friend! I am a software engineer at{' '}
         <a
