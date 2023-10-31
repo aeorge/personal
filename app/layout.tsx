@@ -1,5 +1,5 @@
 import { AnalyticsWrapper } from '@/components/analytics'
-import { Inter } from '@next/font/google'
+import { Inter } from 'next/font/google'
 import './globals.css'
 
 const inter = Inter({
@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     >
       <head />
       <body className="touch-manipulation overflow-x-hidden antialiased">
-        <main className="my-8 max-w-3xl px-6 md:my-16 md:mx-auto lg:my-32">
+        <main className="my-8 max-w-3xl px-6 md:mx-auto md:my-16 lg:my-32">
           {children}
           <AnalyticsWrapper />
         </main>
