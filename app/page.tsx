@@ -28,11 +28,11 @@ export default function Page() {
         If you have similar interests, I would love to connect with you on{' '}
         <a
           className="underline underline-offset-2"
-          href="https://twitter.com/kotziabassis"
+          href="https://x.com/kotziabassis"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Twitter
+          X
         </a>{' '}
         and chat about all things technology, coffee and keyboards. You can also follow me on{' '}
         <a
