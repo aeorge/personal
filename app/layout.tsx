@@ -1,16 +1,11 @@
 import { AnalyticsWrapper } from '@/components/analytics'
-import { Inter } from 'next/font/google'
+import { GeistMono, GeistSans } from 'geist/font'
 import './globals.css'
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-})
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html
-      className={`bg-[#ebebeb] text-[#141414] dark:bg-[#141414] dark:text-[#ebebeb] ${inter.variable}`}
+      className={`bg-[#ebebeb] text-[#141414] dark:bg-[#141414] dark:text-[#ebebeb] ${GeistSans.variable} ${GeistMono.variable}`}
       lang="en"
     >
       <head />
