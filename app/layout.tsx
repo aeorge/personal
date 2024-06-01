@@ -2,6 +2,12 @@ import { AnalyticsWrapper } from '@/components/analytics'
 import { GeistMono } from 'geist/font/mono'
 import { GeistSans } from 'geist/font/sans'
 import './globals.css'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Georgios Kotziabassis',
+  description: 'CTO at SPACEGOATS, aiming to simplify international sales.',
+}
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
