@@ -1,5 +1,6 @@
 import { AnalyticsWrapper } from '@/components/analytics'
-import { GeistMono, GeistSans } from 'geist/font'
+import { GeistMono } from 'geist/font/mono'
+import { GeistSans } from 'geist/font/sans'
 import './globals.css'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
