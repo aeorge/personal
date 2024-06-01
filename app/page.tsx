@@ -5,7 +5,7 @@ export default function Page() {
       <h2 className="text-xl">aeorge</h2>
       <hr className="my-4 h-0.5 rounded border-none bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" />
       <p className="mb-4 leading-[1.75rem]">
-        Hello, friend! I am a software engineer at{' '}
+        Hello, friend! I am the CTO at{' '}
         <a
           className="underline underline-offset-2"
           href="https://spacegoats.io/"
