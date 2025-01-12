@@ -1,8 +1,8 @@
 import { AnalyticsWrapper } from '@/components/analytics'
 import { GeistMono } from 'geist/font/mono'
 import { GeistSans } from 'geist/font/sans'
-import './globals.css'
 import { Metadata } from 'next'
+import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Georgios Kotziabassis',
